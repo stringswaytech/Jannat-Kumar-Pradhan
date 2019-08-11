@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>study sites</title>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" type="text/css" href="navcss.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+</head>
+<!--Navigation Bar-->
+<div class="header">
+<!--Course Desktop-->
+	<div>
+		<div class="course">
+			<button class="course-btn">Course
+				<i class="fa fa-caret-down"></i>
+			</button>
+			<div class="course-btn-content">
+				<ul class="course-data">
+					<h3>Math</h3>
+					<a>Data</a>
+				</ul>
+				<ul class="course-data">
+					<h3>Math</h3>
+					<a>Data</a>
+				</ul>
+				<ul class="course-data">
+					<h3>Math</h3>
+					<a>Data</a>
+				</ul>
+			</div>
+		</div>
+
+<!--Search Box-->
+		<form class="search-form">
+			<input type="text" name="search" placeholder="search" class="search-input" />
+			<button type="submit" class="search-btn">
+				<i class="fas fa-search"></i>
+			</button>
+		</form>
+	</div>
+
+<!--Logo-->
+	<h2 class="logo"><img src="logo.jpg" class="logo-img" /> StringsWay</h2>
+
+<!--Right menu Bar-->
+	<input type="checkbox" id="chk">
+	<label for="chk" class="show-menu-btn">
+		<i class="fas fa-bars"></i>
+	</label>
+
+<!--Right Cross menu-->
+	<ul class="menu">
+		
+		<a href="#" id="username">user name</a>
+<!-- Right menu Accordion-->
+		<div class="right-menu-accordion">
+			
+			<button class="accordion">Math</button>
+<div class="panel ">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">Physics</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">Subject 3</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+		</div>
+		
+		
+		<label for="chk" class="hide-menu-btn">
+			<i class="fas fa-times"></i>
+		</label>
+	</ul>
+</div>
+
+
+<body>
+	<div class="content">
+
+
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
+	<center>
+		<img src="4.gif">
+	</center>
+	</div>
+
+
+<!--Accordion script-->
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+</body>
+</html>
