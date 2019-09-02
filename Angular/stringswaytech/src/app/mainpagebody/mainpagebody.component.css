@@ -1,0 +1,104 @@
+html {
+	scroll-behavior: smooth;
+}
+
+html, body {
+	height: 100%;
+}
+#page {
+	min-height: 100%;
+}
+
+#nav{
+	margin-right: 300px;
+}
+
+#login {
+	color: blue;
+}
+
+#register {
+	color: blue;
+	margin-right: 20px;
+}
+
+#course {
+	color: blue;
+	margin-left: 20px;
+}
+
+.w-100 {
+	height: 600px;
+	width: auto;
+}
+
+#logo {
+	height: 20px;
+	width: 20px;
+	margin-right: 7px;
+}
+
+body{
+	background-color: #f8f9fa;
+}
+
+#leftside {
+	width: 300px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+li{
+	margin-top: 10px;
+}
+
+#math{
+	font-size: 25px;
+}
+
+hr{
+	width: 150px;
+
+}
+
+.navbar-nav .dropdown-menu{
+	width: 100px;
+	background-color: #ffff;
+}
+
+.bg-light{
+	background-color: #fff;
+}
+
+#features {
+	margin-top: 400px;
+	margin-bottom: 200px;
+}
+
+.card:hover{
+	-webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+	box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+}
+
+.footer {
+	background-color: #303036;
+	color: #d3d3d3;
+	width: 100%;
+	height: 300px;
+	position: relative;
+	bottom: 0px;
+	/*padding: 10px 10px 0px 10px;*/
+}
+
+.footer .footer-content{
+	height: 400px;
+	display: flex;
+
+}
+
+.footer .footer-content .footer-section{
+	flex: 1;
+	border: 1px solid white;
+	padding:25px;
+}
