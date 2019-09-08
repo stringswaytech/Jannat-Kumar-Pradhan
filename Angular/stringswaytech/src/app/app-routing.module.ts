@@ -10,10 +10,12 @@ import {ChemistryComponent} from './course/chemistry/chemistry.component';
 import {MainheaderComponent} from './mainheader/mainheader.component';
 import {MathComponent} from './course/math/math.component';
 import {BEEComponent} from './course/bee/bee.component';
+import { UserProfileComponent } from './user-profile/user-profile.component';
 
 
 const routes: Routes = [
 	{path: 'evs',component:EvsComponent},
+	{path: 'user-profile',component:UserProfileComponent},
 
 	{
 		path: 'subheader',
